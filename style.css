@@ -1,34 +1,32 @@
 h1{
-color: black;
-text-align: center;
-text-transform: uppercase;
-font-weight: bolder;
-font-size: 20px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-
-.heading{
-    color:black;
-    text-align: center; }
-.h1{
-    font-size: 100px;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
 }
-    .m1{
-    border: 2px solid #eee;
-    border-radius: 8px;
-    float: left;
-    width: 300px;
-    height: 400px;
-    padding: 15px;
-    margin: auto;
+span{
+    color:orange;
+    font-size: 40px;
     
 }
-button{
-    color:blueviolet;
-    border-color: blue;
-    padding: 8px;
+.menu{
+    display: flex;
+    justify-content: start;
+flex-direction:row;
+justify-content:space-evenly ;
 }
+.me{
+    width: 25px ;
+    text-align: center;
+}
+.me p {
+    font-size: 15px;
+}
+.me img{
+  
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 4px orange solid ;
+    
 
-img{
-    width: 100%;
-    border: 1px solid #e5e5e5;
-    border-radius: 8px;}
+}
