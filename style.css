@@ -1,32 +1,45 @@
+body{
+    background-color:hsl(270, 82%, 4%) 
+}
+p{
+    color: white;
+}
 h1{
-    text-align: center;
-    font-size: 25px;
-    margin: 30px;
+    color: rebeccapurple;
 }
 span{
-    color:orange;
-    font-size: 40px;
-    
+    font-size: 30px;
+color: blueviolet;
 }
-.menu{
-    display: flex;
-    justify-content: start;
-flex-direction:row;
-justify-content:space-evenly ;
-}
-.me{
-    width: 25px ;
-    text-align: center;
-}
-.me p {
-    font-size: 15px;
-}
-.me img{
-  
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    border: 4px orange solid ;
-    
+.mark {
+     display: flex;
+ flex-wrap: nowrap;
+ color: white;
+ 
 
 }
+.mark button{
+    background-color:hsl(270, 82%, 4%);
+    color:white;
+display: flex;
+ margin: 10px;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 100px;
+}
+.ma{
+ display: flex;
+ flex-wrap: nowrap;
+ 
+}
+.ma button{ 
+display: flex;
+ margin: 10px;
+justify-content: start;
+align-items: end;
+width: 100px;
+height: 100px;
+ 
+}
+
